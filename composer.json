@@ -1,5 +1,5 @@
 {
-  "name": "LucasSch2410/laravel-expo-notifier",
+  "name": "firegon/laravel-expo-notifier",
   "description": "Easily send Expo notifications with Laravel.",
   "type": "plugin",
   "keywords": [
