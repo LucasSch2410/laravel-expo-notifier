@@ -1,5 +1,5 @@
 {
-  "name": "yieldstudio/laravel-expo-notifier",
+  "name": "LucasSch2410/laravel-expo-notifier",
   "description": "Easily send Expo notifications with Laravel.",
   "type": "plugin",
   "keywords": [
@@ -9,21 +9,10 @@
     "notification",
     "expo"
   ],
-  "homepage": "https://github.com/YieldStudio/laravel-expo-notifier",
+  "homepage": "https://github.com/LucasSch2410/laravel-expo-notifier",
   "license": "MIT",
   "authors": [
-    {
-      "name": "James Hemery",
-      "email": "james@yieldstudio.fr",
-      "homepage": "https://yieldstudio.fr",
-      "role": "Developer"
-    },
-    {
-      "name": "David Tang",
-      "email": "david@yieldstudio.fr",
-      "homepage": "https://yieldstudio.fr",
-      "role": "Developer"
-    }
+
   ],
   "require": {
     "php": "^8.1",
