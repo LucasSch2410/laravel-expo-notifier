@@ -7,6 +7,7 @@ namespace YieldStudio\LaravelExpoNotifier;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
 use YieldStudio\LaravelExpoNotifier\Commands\CheckTickets;
+use YieldStudio\LaravelExpoNotifier\Commands\ClearSentNotifications;
 use YieldStudio\LaravelExpoNotifier\Commands\SendPendingNotifications;
 use YieldStudio\LaravelExpoNotifier\Contracts\ExpoNotificationsServiceInterface;
 use YieldStudio\LaravelExpoNotifier\Contracts\ExpoPendingNotificationStorageInterface;
@@ -53,6 +54,7 @@ final class ExpoNotificationsServiceProvider extends ServiceProvider
         $this->commands([
             SendPendingNotifications::class,
             CheckTickets::class,
+            ClearSentNotifications::class,
         ]);
 
         if (config('expo-notifications.automatically_delete_token', false)) {
